@@ -22,7 +22,7 @@ header{
 aside{
     background-color: violet;
     height: 300px;
-    width: calc(25% - 10px);
+    width: 25%;
     margin-left: 10px;
     float: left;
 }
@@ -37,22 +37,24 @@ main{
 }
 
 /*laterale destra*/
+.container-right{
+    float: left;
+    width: calc(23% - 10px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 section.quadrato-sopra{
     background-color: violet;
     height: 180px;
-    width: calc(24% - 10px);
-    margin-left: 10px;
+    width: 100%;
     margin-bottom: 10px;
-    float: left;
 }
 
-/*laterale destra*/
 section.quadrato-sotto{
     background-color: violet;
     height: 180px;
-    width: calc(24% - 10px);
-    margin-left: 10px;
-    float: left;
+    width: 100%;
 }
 
 /*chiusura finale*/
